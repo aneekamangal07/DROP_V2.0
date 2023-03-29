@@ -1,0 +1,82 @@
+.settings{
+    display: flex;
+    height: 600px;
+    margin: 30px;
+}
+.settingsWrapper{
+    flex: 9;
+    padding: 20px;
+}
+.settingsTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.settingsUpdateTitle{
+    margin-left: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #dfb5a5;
+    font-family: 'Poppins', sans-serif;
+}
+.settingsDeleteTitle{
+    font-size: 12px;
+    cursor: pointer;
+    color: red;
+    font-family: 'Poppins', sans-serif;
+}
+.settingsForm{
+    display: flex;
+    flex-direction: column;
+}
+.settingsPP{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.settingsPP img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.settingsPPIcon{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    
+}
+.settingsForm label{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0 0 20px;
+}
+.settingsForm input{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 20px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.settingsUpdate{
+    width: 100px;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #dfb5a5;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+}
