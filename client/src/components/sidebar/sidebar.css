@@ -1,0 +1,63 @@
+.sidebar{
+    flex: 3;
+    height: fit-content;
+    margin: 20px;
+    background-color: #dfb5a5;
+    /* display: flex; */
+}
+.sidebarItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebarTitle{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    line-height: 19px;
+    font-weight: 500;
+}
+.sidebar img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.sidebar p{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 30px;
+    padding-top: 10px;
+    text-align: justify;
+}
+.sidebarList{
+    margin-top: 5px;
+    list-style: none;
+    margin-bottom: 30px;
+}
+.sidebarListItem{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    width: 50%;
+    cursor: pointer;
+}
+.sidebarSocial{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    margin-bottom: 10px;
+}
+.sidebarSocialIcons{
+    font-size: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+    padding-bottom: 10px;
+}

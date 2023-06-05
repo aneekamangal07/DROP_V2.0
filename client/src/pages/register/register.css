@@ -1,0 +1,57 @@
+.register{
+    height: calc(100vh - 200px);
+    display: flex;
+    padding-top: 150px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255,255,255, 0.3), rgba(255,255,255,0.3)), url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.registerTitle{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 20px; */
+}
+.registerForm label{
+    margin: 10px 0;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.registerForm input{
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.registerButton{
+    width: 100px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(98, 98, 98);
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    cursor: pointer;
+}
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    border: none;
+    background-color: #dfb5a5;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    cursor: pointer;
+}
