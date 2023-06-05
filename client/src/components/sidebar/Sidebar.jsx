@@ -20,9 +20,9 @@ export default function Sidebar() {
         <span className="sidebarTitle">ABOUT ME</span>
         <img src={me} alt="" />
         <p>
-          I am a full stack web developer. I know languages like C, C++, Javascript, HTML, CSS, as well as libraries like react.js, node.js, express.js. I have also worked with mongoDB and MySQL databases.
+          I am a full stack web developer. I know languages like C, C++, Javascript, HTML, CSS, as well as libraries like react.js, node.js, express.js. I have worked with mongoDB and MySQL databases.
         </p>
-          <p>This is a blogging website, named it as DROP, such that you can drop your thoughts here :)</p>
+          <p>This is a blogging website, I named it as DROP, you can drop your thoughts here:)</p>
       </div>
       <div className="sidebarItem">
         <span className="sidebarTitle">CATEGORIES</span>
